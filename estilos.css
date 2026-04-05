@@ -5,17 +5,11 @@ body {
     color: #f1f1f1; /* letras claras */
 }
 
-/* ============================= */
-/* MENÚ */
-/* ============================= */
-
 nav {
     background-color: #1e1e1e;
     text-align: center;
     padding: 20px;
 }
-
-/* LOGO */
 
 .logo {
     width: 300px;
@@ -24,14 +18,10 @@ nav {
     margin: 0 auto 10px auto;
 }
 
-/* TÍTULO */
-
 nav h2 {
     color: #4cc9f0;
     margin-bottom: 10px;
 }
-
-/* MENÚ LINKS */
 
 nav ul {
     list-style: none;
@@ -53,10 +43,6 @@ nav a:hover {
     color: #22c55e;
 }
 
-/* ============================= */
-/* SECCIONES */
-/* ============================= */
-
 section {
     background-color: #1e1e1e;
     padding: 40px;
@@ -64,10 +50,6 @@ section {
     border-radius: 12px;
     max-width: 1000px;
 }
-
-/* ============================= */
-/* SOLO CENTRAR INICIO */
-/* ============================= */
 
 #inicio {
     text-align: center;
@@ -82,10 +64,6 @@ section {
     color: #f1f1f1;
 }
 
-/* ============================= */
-/* TÍTULOS */
-/* ============================= */
-
 h2 {
     color: #22c55e;
 }
@@ -98,19 +76,11 @@ p {
     color: #e5e7eb;
 }
 
-/* ============================= */
-/* PORTAFOLIO */
-/* ============================= */
-
-/* CONTENEDOR EN 3 COLUMNAS */
-
 .contenedor-proyectos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-
-/* TARJETAS */
 
 .tarjeta {
     background-color: #121212;
@@ -125,15 +95,11 @@ p {
     transform: scale(1.05);
 }
 
-/* IMÁGENES */
-
 .imagen-proyecto {
     width: 100%;
     height: 160px;
     object-fit: cover;
 }
-
-/* BOTÓN */
 
 .btn-proyecto {
     display: inline-block;
@@ -150,17 +116,9 @@ p {
     background-color: #16a34a;
 }
 
-/* ============================= */
-/* LISTAS */
-/* ============================= */
-
 ul {
     color: #e5e7eb;
 }
-
-/* ============================= */
-/* RESPONSIVE */
-/* ============================= */
 
 @media (max-width: 900px) {
 
