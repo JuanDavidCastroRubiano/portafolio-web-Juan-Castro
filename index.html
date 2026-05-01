@@ -2,14 +2,15 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Juan Castro | Full Stack Java Developer</title>
     <link rel="stylesheet" href="estilos.css">
+    <!-- Iconos para la hamburguesa y redes -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Fondo de partículas reforzado -->
+    <!-- Contenedor del fondo interactivo -->
     <div id="particles-js"></div>
 
     <nav>
@@ -17,11 +18,17 @@
             <div class="logo-box">
                 <img src="img/logo.jpg" alt="Juan Castro" class="main-logo">
             </div>
+            
+            <!-- Icono de menú para celulares -->
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
             <ul class="nav-links">
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="img/CV Juan Castro Generation.pdf" download class="cv-btn">CV PDF</a></li>
+                <li><a href="img/CV Juan Castro Generation.pdf" download class="cv-btn">Descargar CV</a></li>
             </ul>
         </div>
     </nav>
@@ -29,17 +36,16 @@
     <main>
         <section id="hero">
             <div class="hero-content">
-                <!-- Badge de Disponibilidad Llamativo -->
                 <div class="availability-container">
                     <div class="pulse-icon"></div>
-                    <span class="availability-text">OPEN TO WORK | DISPONIBLE PARA OPORTUNIDADES</span>
+                    <span class="availability-text">OPEN TO WORK | DISPONIBLE 2026</span>
                 </div>
                 
                 <h1>Hola, soy <span class="text-gradient">Juan Castro</span></h1>
                 <h2>Junior Full Stack Java Developer</h2>
                 <p class="hero-p">
-                    Construyo soluciones web robustas integrando **Java, Spring Boot y PostgreSQL**. 
-                    Transformo retos operativos en arquitecturas de software escalables y eficientes.
+                    Especialista en el ecosistema **Java, Spring Boot y PostgreSQL**. 
+                    Diseño arquitecturas escalables y mantengo la calma ante incidencias críticas.
                 </p>
                 <div class="hero-social">
                     <a href="https://github.com/JuanDavidCastroRubiano" target="_blank"><i class="fab fa-github"></i> GitHub</a>
@@ -53,16 +59,15 @@
                 <h3 class="section-tag">Sobre Mí</h3>
                 <div class="about-grid">
                     <div class="about-text">
-                        <h4>Desarrollo con propósito y claridad técnica
-                        </h4>
+                        <h4>Desarrollo con propósito y claridad técnica</h4>
                         <p>
-                            Mi transición hacia el desarrollo de software no fue una coincidencia, sino la evolución natural de mi pasión por resolver acertijos complejos. Como **Junior Full Stack Java Developer**, entiendo que la tecnología es el puente entre un problema y una solución eficiente, sostenida por la lógica humana.
+                            Mi transición hacia el desarrollo de software fue la evolución natural de mi pasión por resolver acertijos complejos. Como **Junior Full Stack Java Developer**, entiendo que la tecnología es el puente entre un problema y una solución eficiente, sostenida por la lógica humana.
                         </p>
                         <p>
-                            Mi trayectoria en gestión operativa y resolución de incidencias en entornos de alta exigencia me enseñó a mantener la calma bajo presión y a analizar problemas desde su raíz. Esta capacidad analítica es mi mayor ventaja al diseñar arquitecturas en capas y estructurar bases de datos robustas en **PostgreSQL**.
+                            Mi trayectoria en gestión operativa y resolución de incidencias me enseñó a analizar problemas desde su raíz. Esta capacidad analítica es mi mayor ventaja al diseñar arquitecturas en capas y estructurar bases de datos robustas en **PostgreSQL**.
                         </p>
                         <p>
-                            Soy egresado de **Generation Colombia**, donde perfeccioné mi habilidad para trabajar en equipos ágiles, entendiendo que el éxito reside tanto en el dominio técnico como en una comunicación clara y proactiva.
+                            Soy egresado de **Generation Colombia**, donde perfeccioné mi habilidad para trabajar en equipos ágiles con comunicación clara y proactiva.
                         </p>
                     </div>
                     <div class="skills-mini-grid">
@@ -113,12 +118,12 @@
 
         <section id="experiencia">
             <div class="container">
-                <h3 class="section-tag">Experiencia & Formación.</h3>
+                <h3 class="section-tag">Experiencia & Formación</h3>
                 <div class="exp-item">
                     <div class="exp-date">2026</div>
                     <div class="exp-content">
-                        <h4>Desarrolladora Full Stack Java - Generation Colombia</h4>
-                        <p>Desarrollo web full stack con enfoque en lógica de negocio y trabajo colaborativo.</p>
+                        <h4>Desarrollador Full Stack Java - Generation Colombia</h4>
+                        <p>Desarrollo web integral con enfoque en lógica de negocio.</p>
                     </div>
                 </div>
                 <div class="exp-item">
@@ -144,6 +149,7 @@
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="app.js"></script>
 </body>
