@@ -1,251 +1,150 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Juan Castro</title>
+    <title>Juan Castro | Full Stack Java Developer</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
 
+    <!-- Fondo de partículas reforzado -->
+    <div id="particles-js"></div>
+
     <nav>
-
-        <img 
-            src="img/logo.jpg"
-            alt="logo Juan Castro"
-            class="logo"
-        >
-
-        <h2>Mi Portafolio</h2>
-
-        <ul>
-
-            <li>
-                <a href="#inicio">Inicio</a>
-            </li>
-
-            <li>
-                <a href="#acerca">Acerca de mí</a>
-            </li>
-
-            <li>
-                <a href="#portafolio">Portafolio</a>
-            </li>
-
-            <li>
-                <a href="#cv">CV</a>
-            </li>
-
-            <li>
-                <a href="#reflexion">Reflexión</a>
-            </li>
-
-        </ul>
-
+        <div class="nav-container">
+            <div class="logo-box">
+                <img src="img/logo.jpg" alt="Juan Castro" class="main-logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="img/CV Juan Castro Generation.pdf" download class="cv-btn">CV PDF</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <section id="inicio">
-
-        <h1>Juan David Castro Rubiano</h1>
-
-        <p>
-            Desarrollador Junior Full Stack Java
-        </p>
-
-        <p>
-            Apasionado por el desarrollo web y la tecnología.
-        </p>
-
-        <p>
-
-            📧 
-            <a href="mailto:juandavidcastrorubiano@gmail.com">
-                juandavidcastrorubiano@gmail.com
-            </a>
-
-            <br><br>
-
-            🔗 
-            <a 
-                href="https://github.com/JuanDavidCastroRubiano" 
-                target="_blank"
-            >
-                GitHub
-            </a>
-
-            <br><br>
-
-            🔗 
-            <a 
-                href="https://www.linkedin.com/in/juan-david-castro-rubiano-3b00693b8" 
-                target="_blank"
-            >
-                LinkedIn
-            </a>
-
-        </p>
-
-    </section>
-
-    <section id="acerca">
-
-        <h2>Acerca de mí</h2>
-
-        <p>
-            Soy estudiante de Desarrollo Junior Full Stack Java,
-            interesado en crear soluciones tecnológicas funcionales
-            y seguir fortaleciendo mis habilidades en programación.
-        </p>
-
-    </section>
-
-    <section id="portafolio">
-
-        <h2>Mis Proyectos</h2>
-
-        <div class="contenedor-proyectos">
-
-            <div class="tarjeta">
-
-                <img 
-                    src="img/Gestor de tareas.JPG" 
-                    alt="Proyecto Task Manager"
-                    class="imagen-proyecto"
-                >
-                <h3>Task Manager</h3>
-
-                <p>
-                    Aplicación que permite crear y eliminar tareas.
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <!-- Badge de Disponibilidad Llamativo -->
+                <div class="availability-container">
+                    <div class="pulse-icon"></div>
+                    <span class="availability-text">OPEN TO WORK | DISPONIBLE PARA OPORTUNIDADES</span>
+                </div>
+                
+                <h1>Hola, soy <span class="text-gradient">Juan Castro</span></h1>
+                <h2>Junior Full Stack Java Developer</h2>
+                <p class="hero-p">
+                    Construyo soluciones web robustas integrando **Java, Spring Boot y PostgreSQL**. 
+                    Transformo retos operativos en arquitecturas de software escalables y eficientes.
                 </p>
-
-                <a 
-                    href="https://github.com/JuanDavidCastroRubiano/taskmanager-JuanCastro.git"
-                    target="_blank"
-                    class="btn-proyecto"
-                >
-                    Ver en GitHub
-                </a>
+                <div class="hero-social">
+                    <a href="https://github.com/JuanDavidCastroRubiano" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/juan-david-castro-rubiano-3b00693b8" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
             </div>
-            <div class="tarjeta">
+        </section>
 
-                <img 
-                    src="img/Ordenador de Numeros.JPG" 
-                    alt="Proyecto Ordenar Números"
-                    class="imagen-proyecto"
-                >
-                <h3>Lógica de Programación</h3>
-
-                <p>
-                    Programa que solicita 3 números y los ordena.
-                </p>
-
-                <a 
-                    href="https://github.com/JuanDavidCastroRubiano/logica-programacion-1.git"
-                    target="_blank"
-                    class="btn-proyecto"
-                >
-                    Ver en GitHub
-                </a>
-
+        <section id="sobre-mi">
+            <div class="container">
+                <h3 class="section-tag">Sobre Mí</h3>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h4>Desarrollo con propósito y claridad técnica
+                        </h4>
+                        <p>
+                            Mi transición hacia el desarrollo de software no fue una coincidencia, sino la evolución natural de mi pasión por resolver acertijos complejos. Como **Junior Full Stack Java Developer**, entiendo que la tecnología es el puente entre un problema y una solución eficiente, sostenida por la lógica humana.
+                        </p>
+                        <p>
+                            Mi trayectoria en gestión operativa y resolución de incidencias en entornos de alta exigencia me enseñó a mantener la calma bajo presión y a analizar problemas desde su raíz. Esta capacidad analítica es mi mayor ventaja al diseñar arquitecturas en capas y estructurar bases de datos robustas en **PostgreSQL**.
+                        </p>
+                        <p>
+                            Soy egresado de **Generation Colombia**, donde perfeccioné mi habilidad para trabajar en equipos ágiles, entendiendo que el éxito reside tanto en el dominio técnico como en una comunicación clara y proactiva.
+                        </p>
+                    </div>
+                    <div class="skills-mini-grid">
+                        <div class="skill-pill">Java / Spring Boot</div>
+                        <div class="skill-pill">PostgreSQL</div>
+                        <div class="skill-pill">JavaScript</div>
+                        <div class="skill-pill">Git / GitHub</div>
+                        <div class="skill-pill">Arquitectura en Capas</div>
+                    </div>
+                </div>
             </div>
-            <div class="tarjeta">
+        </section>
 
-                <img 
-                    src="img/Contador Interactivo.JPG" 
-                    alt="Proyecto Contador"
-                    class="imagen-proyecto"
-                >
-
-                <h3>Contador Interactivo</h3>
-
-                <p>
-                    Contador que permite aumentar y disminuir números.
-                </p>
-
-                <a 
-                    href="https://github.com/JuanDavidCastroRubiano/Interacci-n-con-HTML-CSS-y-JavaScript---ENTREGA.git"
-                    target="_blank"
-                    class="btn-proyecto"
-                >
-                    Ver en GitHub
-                </a>
-
+        <section id="proyectos">
+            <div class="container">
+                <h3 class="section-tag">Proyectos Destacados</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="pj-img" style="background-image: url('img/Gestor de tareas.JPG');"></div>
+                        <div class="pj-info">
+                            <span class="pj-category">Full Stack</span>
+                            <h4>Task Manager Pro</h4>
+                            <p>Gestión de flujos de trabajo con persistencia de datos.</p>
+                            <div class="pj-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="pj-img" style="background-image: url('img/Contador Interactivo.JPG');"></div>
+                        <div class="pj-info">
+                            <span class="pj-category">Frontend</span>
+                            <h4>Contador Dinámico</h4>
+                            <p>Manipulación avanzada del DOM y eventos.</p>
+                            <div class="pj-tags"><span>JavaScript</span><span>DOM</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="pj-img" style="background-image: url('img/Ordenador de Numeros.jpg');"></div>
+                        <div class="pj-info">
+                            <span class="pj-category">Algoritmos</span>
+                            <h4>Data Sorter Engine</h4>
+                            <p>Procesamiento y ordenamiento de estructuras.</p>
+                            <div class="pj-tags"><span>Java</span><span>Lógica</span></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
+        <section id="experiencia">
+            <div class="container">
+                <h3 class="section-tag">Experiencia & Formación.</h3>
+                <div class="exp-item">
+                    <div class="exp-date">2026</div>
+                    <div class="exp-content">
+                        <h4>Desarrolladora Full Stack Java - Generation Colombia</h4>
+                        <p>Desarrollo web full stack con enfoque en lógica de negocio y trabajo colaborativo.</p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-date">2025</div>
+                    <div class="exp-content">
+                        <h4>Rental Exit Executive - GI Group Staffing S.A.S</h4>
+                        <p>Gestión operativa y resolución de incidencias críticas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="container">
+            <h3>¿Listo para innovar juntos?</h3>
+            <p>juandavidcastrorubiano@gmail.com</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/juan-david-castro-rubiano-3b00693b8" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/JuanDavidCastroRubiano" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="copy">© 2026 Juan Castro · Junior Full Stack Java Developer</p>
         </div>
+    </footer>
 
-    </section>
-
-    <section id="cv">
-
-        <h2>Mi Currículum</h2>
-
-        <h3>Perfil Profesional</h3>
-
-        <p>
-            Desarrollador Full Stack Java Junior en formación, 
-            con conocimientos en HTML, CSS, JavaScript y desarrollo 
-            backend con Java y Spring Boot.
-        </p>
-
-        <h3>Educación</h3>
-
-        <ul>
-
-            <li>
-                <strong>Desarrollador Full Stack Java Junior</strong><br>
-                Generation Colombia — Bogotá  
-                (Finalización: Junio 2026)
-            </li>
-
-            <br>
-
-            <li>
-                <strong>Técnico en Asistencia Administrativa</strong><br>
-                SENA — Bogotá  
-                (Finalización: Julio 2021)
-            </li>
-
-        </ul>
-
-        <h3>Habilidades Técnicas</h3>
-
-        <ul>
-
-            <li>Java</li>
-            <li>Spring Boot</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-
-        </ul>
-
-    </section>
-
-    <section id="reflexion">
-
-    <h2>Reflexión</h2>
-
-    <p>
-        Aprender a programar ha sido un proceso retador y emocionante. 
-        Cada error, cada línea de código y cada proyecto desarrollado 
-        han sido oportunidades para aprender, mejorar y crecer como profesional.
-    </p>
-
-    <p>
-        Como desarrollador junior, entiendo que el aprendizaje nunca se detiene. 
-        La tecnología evoluciona constantemente, y mi meta es evolucionar con ella, 
-        manteniendo siempre la curiosidad, la disciplina y la pasión por crear soluciones 
-        que faciliten la vida de las personas.
-    </p>
-
-    <p>
-        Este portafolio representa no solo lo que sé hoy, sino también el compromiso 
-        que tengo con mi crecimiento y mi futuro dentro del mundo del desarrollo de software.
-    </p>
-
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="app.js"></script>
 </body>
-
 </html>
