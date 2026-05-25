@@ -2,362 +2,511 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Juan Castro | Full Stack Java Developer</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Juan Castro | Full Stack Developer
+    </title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
 
+    <!-- PARTICLES -->
     <div id="particles-js"></div>
 
-    <!-- CURSOR PERSONALIZADO -->
+    <!-- CURSOR -->
     <div class="cursor-dot"></div>
     <div class="cursor-ring"></div>
 
     <!-- NAVBAR -->
-    <nav id="navbar">
+    <nav>
+
         <div class="nav-container">
-            <div class="logo-box">
-                <img src="img/logo.jpg" alt="Juan Castro" class="main-logo">
-            </div>
 
-            <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menú" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <img src="img/logo.jpg" alt="Juan Castro" class="main-logo">
 
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#hero" class="nav-link">Inicio</a></li>
-                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
-                <li><a href="#experiencia" class="nav-link">Trayectoria</a></li>
+            <ul class="nav-links">
+
                 <li>
-                    <a href="img/CV Juan Castro Generation.pdf" download class="cv-btn-digital">
-                        <i class="fas fa-terminal"></i> DESCARGAR CV
+                    <a href="#hero">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#sobre-mi">Sobre mí</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#proyectos">Proyectos</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+                <li>
+                    <a href="img/CV_JuanCastroGeneration.pdf" download class="cv-btn-digital">
+
+                        CV
+
                     </a>
                 </li>
+
             </ul>
+
         </div>
+
     </nav>
 
-    <main>
-        <!-- HERO -->
-        <section id="hero">
-            <div class="hero-content">
-                <div class="availability-badge">
-                    <span class="status-dot"></span>
-                    <span class="status-text">DISPONIBLE PARA NUEVOS PROYECTOS 2026</span>
-                </div>
+    <!-- HERO -->
+    <section id="hero">
 
-                <h1 class="reveal-up">Hola, soy <span class="text-gradient">Juan Castro</span></h1>
-                <h2 class="reveal-up delay-1">Junior Full Stack Java Developer</h2>
+        <div class="hero-content">
 
-                <p class="hero-p reveal-up delay-2">
-                    Especialista en la construcción de arquitecturas robustas con <strong>Java y Spring Boot</strong>.
-                    Mi stack se potencia con la versatilidad de <strong>Python</strong> y un dominio preciso de
-                    interfaces modernas en <strong>HTML5, CSS3 y JavaScript</strong>.
-                    No solo escribo código — diseño soluciones digitales escalables.
-                </p>
+            <h1>
+                Juan
+                <span class="text-gradient">
+                    Castro
+                </span>
+            </h1>
 
-                <div class="hero-social-digital reveal-up delay-3">
-                    <a href="https://github.com/JuanDavidCastroRubiano" target="_blank" rel="noopener"
-                        class="social-glass github">
-                        <i class="fab fa-github"></i> GITHUB
-                    </a>
-                    <a href="https://www.linkedin.com/in/juan-david-castro-rubiano-3b00693b8" target="_blank"
-                        rel="noopener" class="social-glass linkedin">
-                        <i class="fab fa-linkedin-in"></i> LINKEDIN
-                    </a>
-                </div>
+            <h2>
+                Full Stack Java Developer
+            </h2>
 
-                <div class="scroll-indicator">
-                    <span>SCROLL</span>
-                    <div class="scroll-line"></div>
-                </div>
-            </div>
-        </section>
+            <p class="hero-p">
 
-        <!-- SOBRE MÍ -->
-        <section id="sobre-mi">
-            <div class="container">
-                <h3 class="section-tag">// SOBRE_MÍ</h3>
-                <div class="about-card-digital">
-                    <div class="about-header">
-                        <span class="dot red"></span>
-                        <span class="dot yellow"></span>
-                        <span class="dot green"></span>
-                        <span class="header-title">juan_castro.info</span>
-                    </div>
-                    <div class="about-content">
-                        <h4>Hola, soy Juan — y esto es lo que me mueve</h4>
-                        <p>
-                            Llevo toda la vida sintiendo que los problemas complejos son como acertijos esperando ser
-                            resueltos. Esa curiosidad me trajo al desarrollo de software, y hoy soy
-                            <strong>Junior Full Stack Java Developer</strong> con las ganas de quien sabe que apenas
-                            está empezando, pero que ya entiende cómo funciona el juego.
-                        </p>
-                        <p>
-                            Antes de escribir mi primera línea de código de manera profesional, trabajé en gestión
-                            operativa — un mundo donde los procesos tienen que funcionar sí o sí, y donde un error
-                            en el flujo de trabajo cuesta caro. Esa experiencia me enseñó algo que ningún bootcamp
-                            enseña: a pensar antes de ejecutar. Hoy aplico esa misma mentalidad cuando diseño
-                            arquitecturas en capas o modelo bases de datos en <strong>PostgreSQL</strong>. No solo
-                            escribo código que funciona — escribo código que tiene sentido.
-                        </p>
-                        <p>
-                            Me formé en <strong>Generation Colombia</strong>, donde aprendí que trabajar en equipo
-                            de verdad implica comunicación constante, adaptación rápida y ego bajo. Salí de ahí
-                            sabiendo que me gusta construir cosas útiles junto a otras personas, y que eso es
-                            exactamente lo que quiero seguir haciendo.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+                Desarrollador Full Stack enfocado
+                en construir aplicaciones modernas,
+                funcionales y escalables utilizando
+                Java, Spring Boot, PostgreSQL,
+                HTML, CSS y JavaScript.
 
-        <!-- SKILLS -->
-        <section id="skills">
-            <div class="container">
-                <h3 class="section-tag">// STACK_TECNOLÓGICO</h3>
-                <div class="skills-grid">
+            </p>
 
-                    <div class="skill-category">
-                        <h5 class="skill-cat-title"><i class="fas fa-server"></i> Backend</h5>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span class="skill-name">Java</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="85"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Spring Boot</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="80"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Python</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="65"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="hero-social-digital">
 
-                    <div class="skill-category">
-                        <h5 class="skill-cat-title"><i class="fas fa-database"></i> Base de Datos</h5>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span class="skill-name">PostgreSQL</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="78"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">SQL</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="75"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <a href="https://github.com/JuanDavidCastroRubiano" target="_blank" class="social-glass">
 
-                    <div class="skill-category">
-                        <h5 class="skill-cat-title"><i class="fas fa-paint-brush"></i> Frontend</h5>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span class="skill-name">HTML5 / CSS3</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="88"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">JavaScript</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="72"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h5 class="skill-cat-title"><i class="fas fa-tools"></i> Herramientas</h5>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span class="skill-name">Git / GitHub</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="80"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Scrum / Agile</span>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" data-width="70"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- PROYECTOS -->
-        <section id="proyectos">
-            <div class="container">
-                <h3 class="section-tag">// PROYECTOS_DESTACADOS</h3>
-                <div class="projects-grid">
-
-                    <div class="project-card">
-                        <div class="pj-img" style="background-image: url('img/blogDeportivo.JPG');"></div>
-                        <div class="pj-info">
-                            <span class="pj-category">frontend</span>
-                            <h4>Blog Deportivo Web</h4>
-                            <p>Aplicación web tipo blog enfocada en contenido deportivo.</p> 
-                            <p>Incluye secciones como inicio, nosotros y contacto.</p>
-                            <p>Diseñado con enfoque en navegación y experiencia de usuario.</p>
-                            <div class="pj-tags">
-                                <span>HTML5</span>
-                                <span>CSS3</span>
-                                <span>JavaScript</span>
-                            </div>
-                            <div class="pj-links">
-                                <a href="https://github.com/JuanDavidCastroRubiano/Refactorizaci-n-Blog-JuanCastro.git" target="_blank" rel="noopener"
-                                    class="pj-btn">
-                                    <i class="fab fa-github"></i> Ver Código
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="pj-img" style="background-image: url('img/Contador Interactivo.JPG');"></div>
-                        <div class="pj-info">
-                            <span class="pj-category">Frontend</span>
-                            <h4>Contador Interactivo</h4>
-                            <p>Componente reactivo con manipulación del DOM en Vanilla JS. Enfocado en experiencia de
-                                usuario fluida y organización modular del código sin frameworks.</p>
-                            <div class="pj-tags">
-                                <span>Vanilla JS</span>
-                                <span>CSS Grid</span>
-                                <span>UI/UX</span>
-                            </div>
-                            <div class="pj-links">
-                                <a href="https://github.com/JuanDavidCastroRubiano" target="_blank" rel="noopener"
-                                    class="pj-btn">
-                                    <i class="fab fa-github"></i> Ver Código
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="pj-img" style="background-image: url('img/Ordenador de Numeros.jpg');"></div>
-                        <div class="pj-info">
-                            <span class="pj-category">Algoritmos · Java SE</span>
-                            <h4>Ordenador de Números</h4>
-                            <p>Implementación de algoritmos de ordenamiento en Java SE. Aplicación de principios SOLID
-                                para un código limpio, mantenible y fácilmente extensible.</p>
-                            <div class="pj-tags">
-                                <span>Java SE</span>
-                                <span>Algorithms</span>
-                                <span>SOLID</span>
-                            </div>
-                            <div class="pj-links">
-                                <a href="https://github.com/JuanDavidCastroRubiano" target="_blank" rel="noopener"
-                                    class="pj-btn">
-                                    <i class="fab fa-github"></i> Ver Código
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- EXPERIENCIA -->
-        <section id="experiencia">
-            <div class="container">
-                <h3 class="section-tag">// TRAYECTORIA_Y_FORMACIÓN</h3>
-                <div class="timeline">
-
-                    <div class="exp-item">
-                        <div class="exp-dot"></div>
-                        <div class="exp-date">2026</div>
-                        <div class="exp-content">
-                            <h4>Desarrollador Jr Full Stack Java</h4>
-                            <span class="exp-company">Generation Colombia</span>
-                            <p>
-                                Acá fue donde todo tomó forma. Durante el bootcamp construí proyectos reales
-                                desde cero — no ejercicios de práctica, sino aplicaciones con lógica de negocio,
-                                persistencia de datos y frontend funcional. Aprendí a trabajar con
-                                <strong>Spring Boot</strong> para estructurar el backend en capas, a conectar
-                                todo con <strong>PostgreSQL</strong>, y a hacer que el frontend respondiera de
-                                verdad al usuario. Pero más allá del código, aprendí a trabajar bajo metodologías
-                                ágiles con Scrum, a hacer retrospectivas, a pedir ayuda a tiempo y a dar feedback
-                                útil. Eso también es parte de ser un buen desarrollador.
-                            </p>
-                            <div class="exp-tags">
-                                <span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Scrum</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="exp-item">
-                        <div class="exp-dot"></div>
-                        <div class="exp-date">2025</div>
-                        <div class="exp-content">
-                            <h4>Rental Exit Executive</h4>
-                            <span class="exp-company">GI Group Staffing S.A.S</span>
-                            <p>
-                                Este rol me parece importante mencionarlo porque fue donde desarrollé algo que
-                                muy pocos juniors tienen: criterio operativo. Gestioné procesos críticos de
-                                auditoría de salida donde los errores tenían consecuencias reales, lo que me
-                                obligó a ser meticuloso, rápido y analítico al mismo tiempo. Hoy, cuando reviso
-                                un flujo de datos o diseño la estructura de una base de datos, traigo esa misma
-                                rigurosidad conmigo. El código limpio no es solo estética — es responsabilidad,
-                                y eso lo aprendí antes de ser desarrollador.
-                            </p>
-                            <div class="exp-tags">
-                                <span>Gestión Operativa</span><span>Análisis</span><span>Resolución de Problemas</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <h2 class="footer-title">¿LISTO PARA INNOVAR JUNTOS?</h2>
-            <a href="mailto:juandavidcastrorubiano@gmail.com" class="footer-email">
-                juandavidcastrorubiano@gmail.com
-            </a>
-            <div class="footer-social-large">
-                <a href="https://www.linkedin.com/in/juan-david-castro-rubiano-3b00693b8" target="_blank" rel="noopener"
-                    aria-label="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/JuanDavidCastroRubiano" target="_blank" rel="noopener" aria-label="GitHub">
                     <i class="fab fa-github"></i>
+                    GitHub
+
                 </a>
+
+                <a href="https://www.linkedin.com/in/juan-david-castro-rubiano-3b00693b8" target="_blank"
+                    class="social-glass">
+
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+
+                </a>
+
             </div>
-            <p class="copy">© 2026 Juan Castro · Junior Full Stack Java Developer</p>
+
         </div>
+
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi">
+
+        <div class="container">
+
+            <h3 class="section-tag">
+                // SOBRE_MÍ
+            </h3>
+
+            <div class="about-card-digital">
+
+                <div class="about-content">
+
+                    <h4>
+                        Hola, soy Juan — y esto es lo que me impulsa dentro de la tecnología
+                    </h4>
+
+                    <p>
+                        Mi transición al desarrollo de software viene de una experiencia laboral previa que me permitió
+                        desarrollar habilidades muy valiosas como la comunicación, la adaptabilidad y la resolución de
+                        problemas en entornos reales. Más que verlo como un cambio de rumbo, lo considero una ventaja
+                        que hoy me permite aportar una visión más madura, estratégica y humana al momento de construir
+                        soluciones tecnológicas.
+                    </p>
+
+                    <p>
+                        Actualmente cuento con bases sólidas en <strong>frontend, backend y bases de datos</strong>,
+                        trabajando con tecnologías como <strong>Java, Spring Boot, HTML5, CSS3, JavaScript y
+                            PostgreSQL</strong>. Disfruto crear aplicaciones modernas, funcionales y bien estructuradas,
+                        combinando lógica, diseño y experiencia de usuario para desarrollar soluciones que realmente
+                        generen impacto.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <div class="container">
+
+            <h3 class="section-tag">
+                // STACK_TECNOLÓGICO
+            </h3>
+
+            <div class="skills-grid">
+
+                <!-- BACKEND -->
+                <div class="skill-category">
+
+                    <h4 class="skill-cat-title">
+                        <i class="fas fa-server"></i>
+                        Backend
+                    </h4>
+
+                    <div class="skill-item">
+
+                        <span class="skill-name">
+                            Java
+                        </span>
+
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="90"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-item">
+
+                        <span class="skill-name">
+                            Spring Boot
+                        </span>
+
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="85"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-item">
+
+                        <span class="skill-name">
+                            Python
+                        </span>
+
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="70"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- DATABASE -->
+                <div class="skill-category">
+
+                    <h4 class="skill-cat-title">
+                        <i class="fas fa-database"></i>
+                        Base de Datos
+                    </h4>
+
+                    <div class="skill-item">
+
+                        <span class="skill-name">
+                            PostgreSQL
+                        </span>
+
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="82"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-item">
+
+                        <span class="skill-name">
+                            SQL
+                        </span>
+
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="80"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- FRONTEND -->
+                <div class="skill-category">
+
+                    <h4 class="skill-cat-title">
+                        <i class="fas fa-code"></i>
+                        Frontend
+                    </h4>
+
+                    <div class="skill-item">
+
+                        <span class="skill-name">
+                            HTML5
+                        </span>
+
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="92"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-item">
+
+                        <span class="skill-name">
+                            CSS3
+                        </span>
+
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="88"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-item">
+
+                        <span class="skill-name">
+                            JavaScript
+                        </span>
+
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="78"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+
+        <div class="container">
+
+            <h3 class="section-tag">
+                // PROYECTOS_DESTACADOS
+            </h3>
+
+            <div class="projects-grid">
+
+                <!-- AGROCONECTA -->
+                <div class="project-card">
+
+                    <div class="pj-img" style="background-image:url('img/AgroConecta.JPG')">
+                    </div>
+
+                    <div class="pj-info">
+
+                        <span class="pj-category">
+                            Full Stack · E-Commerce
+                        </span>
+
+                        <h4>
+                            AgroConecta
+                        </h4>
+
+                        <p>
+
+                            Plataforma e-commerce desarrollada
+                            como proyecto final integrando
+                            frontend y backend con Java,
+                            Spring Boot y PostgreSQL.
+
+                        </p>
+
+                        <div class="pj-tags">
+
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>PostgreSQL</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <a href="#" class="pj-btn">
+
+                            <i class="fab fa-github"></i>
+                            Ver Código
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- NIGHTGLOW -->
+                <div class="project-card">
+
+                    <div class="pj-img" style="background-image:url('img/NightGlow.JPG')">
+                    </div>
+
+                    <div class="pj-info">
+
+                        <span class="pj-category">
+                            Hackathon Winner
+                        </span>
+
+                        <h4>
+                            NightGlow
+                        </h4>
+
+                        <p>
+
+                            Proyecto ganador de Hackathon
+                            desarrollado durante el bootcamp
+                            Generation Colombia compitiendo
+                            entre más de 55 participantes.
+
+                        </p>
+
+                        <p>
+
+                            Construido completamente
+                            con HTML, CSS y JavaScript.
+
+                        </p>
+
+                        <div class="pj-tags">
+
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>UI/UX</span>
+
+                        </div>
+
+                        <a href="#" class="pj-btn">
+
+                            <i class="fab fa-github"></i>
+                            Ver Código
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- BLOG -->
+                <div class="project-card">
+
+                    <div class="pj-img" style="background-image:url('img/blogDeportivo.JPG')">
+                    </div>
+
+                    <div class="pj-info">
+
+                        <span class="pj-category">
+                            Frontend Web
+                        </span>
+
+                        <h4>
+                            Blog Deportivo
+                        </h4>
+
+                        <p>
+
+                            Plataforma enfocada en contenido
+                            deportivo desarrollada utilizando
+                            HTML, CSS y JavaScript.
+
+                        </p>
+
+                        <div class="pj-tags">
+
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <a href="https://github.com/JuanDavidCastroRubiano/Refactorizaci-n-Blog-JuanCastro.git"
+                            target="_blank" class="pj-btn">
+
+                            <i class="fab fa-github"></i>
+                            Ver Código
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACTO -->
+    <footer id="contacto">
+
+        <div class="container">
+
+            <h2 class="footer-title">
+                ¿Listo para trabajar juntos?
+            </h2>
+
+            <a href="mailto:juandavidcastrorubiano@gmail.com" class="footer-email">
+
+                juandavidcastrorubiano@gmail.com
+
+            </a>
+
+            <div class="footer-social-large">
+
+                <a href="https://github.com/JuanDavidCastroRubiano" target="_blank">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/juan-david-castro-rubiano-3b00693b8" target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+            </div>
+
+            <p class="copy">
+                © 2026 Juan Castro · Full Stack Developer
+            </p>
+
+        </div>
+
     </footer>
 
+    <!-- PARTICLES -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- JS -->
     <script src="app.js"></script>
+
 </body>
 
 </html>
